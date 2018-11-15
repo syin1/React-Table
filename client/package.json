@@ -1,6 +1,7 @@
 {
   "name": "react-semantic-ui-sortable-table-example",
   "version": "1.0.0",
+  "proxy": "http://localhost:3000/",
   "description": "",
   "engines": {
     "node": "9.2.0"
