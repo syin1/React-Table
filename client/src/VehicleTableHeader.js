@@ -18,49 +18,49 @@ export function VehicleTableHeader(props) {
           sorted={props.column === 'make' ? props.direction : null}
           onClick={() => props.handleSort('make')}
         >
-          Make
+          NAME
         </Table.HeaderCell>
         <Table.HeaderCell
           width={3}
           sorted={props.column === 'model' ? props.direction : null}
           onClick={() => props.handleSort('model')}
         >
-          Model
+          PRICE
         </Table.HeaderCell>
         <Table.HeaderCell
           width={1}
           sorted={props.column === 'year' ? props.direction : null}
           onClick={() => props.handleSort('year')}
         >
-          Year
+          CHANGE
         </Table.HeaderCell>
         <Table.HeaderCell
           width={1}
           sorted={props.column === 'package' ? props.direction : null}
           onClick={() => props.handleSort('package')}
         >
-          Package
+          MARKET CAP
         </Table.HeaderCell>
         <Table.HeaderCell
           width={1}
           sorted={props.column === 'fuelType' ? props.direction : null}
           onClick={() => props.handleSort('fuelType')}
         >
-          Fuel Type
+          VOLUME
         </Table.HeaderCell>
         <Table.HeaderCell
           width={1}
           sorted={props.column === 'trasmission' ? props.direction : null}
           onClick={() => props.handleSort('transmission')}
         >
-          Transmission
+          CHART
         </Table.HeaderCell>
         <Table.HeaderCell
           width={1}
           sorted={props.column === 'favorite' ? props.direction : null}
           onClick={() => props.handleSort('favorite')}
         >
-          Favorite
+          WATCHLIST
         </Table.HeaderCell>
       </Table.Row>
     </Table.Header>
