@@ -1,16 +1,11 @@
 {
-  "name": "react-semantic-ui-sortable-table-example",
+  "name": "React-Table",
   "version": "1.0.0",
-  "proxy": "http://localhost:3000/",
   "description": "",
+  "proxy": "http://localhost:3000",
   "engines": {
-    "node": "9.2.0"
+    "node": "10.1.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gges5110/React-Semantic-UI-Sortable-Table-Example.git"
-  },
-  "main": "server/server.js",
   "scripts": {
     "client": "cd client && react-scripts start",
     "server": "nodemon server.js",
@@ -58,8 +53,6 @@
       "!**/vendor/**"
     ]
   },
-  "author": "Gerry Wu",
-  "license": "MIT",
   "browserslist": [
     ">0.2%",
     "not dead",
