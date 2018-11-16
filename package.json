@@ -9,11 +9,11 @@
     "type": "git",
     "url": "git+https://github.com/gges5110/React-Semantic-UI-Sortable-Table-Example.git"
   },
-  "main": "server/server.js",
+  "main": "server.js",
   "scripts": {
     "client": "cd client && react-scripts start",
     "server": "nodemon server.js",
-    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
+    "dev": "npm run server & npm run client",
     "build": "webpack --mode production",
     "build:watch": "webpack-dev-server --mode development --open --hot",
     "heroku-postbuild": "npm install --dev && webpack --mode production --progress",

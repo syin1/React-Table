@@ -1549,7 +1549,7 @@
       "package": "SE",
       "fuelType": "Gas",
       "transmission": "Manual",
-      "favorite": false
+      "favorite": true
     },
     {
       "id": 156,

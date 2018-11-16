@@ -42,11 +42,10 @@ export default class VehicleFilter extends React.Component {
             <Popup
               trigger={
                 <Form.Input
-                  placeholder="Enter the filter."
+                  placeholder="Search all coins..."
                   name="filter"
                   value={filter}
                   error={!this.state.filterValid}
-                  label="Filter"
                   onChange={this.handleOnChange}
                   icon="search"
                   loading={this.props.loading}

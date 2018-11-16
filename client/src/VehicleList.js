@@ -4,9 +4,7 @@ import { Divider, Segment } from 'semantic-ui-react/dist/commonjs';
 
 import VehicleTable from './VehicleTable';
 import VehicleFilter from './VehicleFilter';
-import vehicles from './vehicles.json';
-
-console.log(vehicles.vehicles);
+// import vehicles from './vehicles.json';
 
 const queryParams = ['_limit', '_order', '_sort', 'q', '_page'];
 
@@ -14,7 +12,7 @@ export default class VehicleList extends React.Component {
   constructor() {
     super();
     this.state = {
-      vehicles: vehicles.vehicles,
+      vehicles: [],
       _sort: 'id',
       _page: 1,
       _limit: 10,
