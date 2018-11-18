@@ -1,0 +1,454 @@
+{
+  "allCoins": [
+    {
+      "id": 1,
+      "name": "BTC",
+      "price": "$ 5,587.49",
+      "change": "-0.11%",
+      "marketcap": "$ 97.12 B",
+      "dvolume": "$ 181,240,613.8",
+      "tvolume": "$ 1,187.59 M"
+    },
+    {
+      "id": 2,
+      "name": "ETH",
+      "price": "$ 176.08",
+      "change": "0.94%",
+      "marketcap": "$ 18.19 B",
+      "dvolume": "$ 47,129,613.2",
+      "tvolume": "$ 618.38 M"
+    },
+    {
+      "id": 3,
+      "name": "XRP",
+      "price": "$ 0.5178",
+      "change": "5.14%",
+      "marketcap": "$ 51.78 B",
+      "dvolume": "$ 47,762,152.2",
+      "tvolume": "$ 639.24 M"
+    },
+    {
+      "id": 4,
+      "name": "BCH",
+      "price": "$ 344.74",
+      "change": "1.42%",
+      "marketcap": "$ 5,992.44 M",
+      "dvolume": "$ 1,553,960.2",
+      "tvolume": "$ 120.75 M"
+    },
+    {
+      "id": 5,
+      "name": "EOS",
+      "price": "$ 4.62",
+      "change": "0.00%",
+      "marketcap": "$ 4,718.24 M",
+      "dvolume": "$ 6,674,248.9",
+      "tvolume": "$ 550.40 M"
+    },
+    {
+      "id": 6,
+      "name": "LTC",
+      "price": "$ 42.17",
+      "change": "0.64%",
+      "marketcap": "$ 2,497.00 M",
+      "dvolume": "$ 4,152,527.7",
+      "tvolume": "$ 122.26 M"
+    },
+    {
+      "id": 7,
+      "name": "XLM",
+      "price": "$ 0.2536",
+      "change": "3.55%",
+      "marketcap": "$ 4,885.45 M",
+      "dvolume": "$ 1,103,216.0",
+      "tvolume": "$ 54.59 M"
+    },
+    {
+      "id": 8,
+      "name": "ADA",
+      "price": "$ 0.06102",
+      "change": "1.70%",
+      "marketcap": "$ 1,582.07 M",
+      "dvolume": "$ 133,323.4",
+      "tvolume": "$ 16.19 M"
+    },
+    {
+      "id": 9,
+      "name": "USDT",
+      "price": "$ 0.9807",
+      "change": "-0.06%",
+      "marketcap": "$ 1,722.52 M",
+      "dvolume": "$ 4,191,013.5",
+      "tvolume": "$ 19.41 M"
+    },
+    {
+      "id": 10,
+      "name": "TRX",
+      "price": "$ 0.01918",
+      "change": "0.58%",
+      "marketcap": "$ 1,261.05 M",
+      "dvolume": "$ 149,516.9",
+      "tvolume": "$ 40.38 M"
+    },
+    {
+      "id": 11,
+      "name": "XMR",
+      "price": "$ 89.30",
+      "change": "1.96%",
+      "marketcap": "$ 1,480.54 M",
+      "dvolume": "$ 3,297,611.0",
+      "tvolume": "$ 200.17 M"
+    },
+    {
+      "id": 12,
+      "name": "NEO",
+      "price": "$ 12.59",
+      "change": "-0.71%",
+      "marketcap": "$ 818.35 M",
+      "dvolume": "$ 1,221,556.6",
+      "tvolume": "$ 106.93 M"
+    },
+    {
+      "id": 13,
+      "name": "DASH",
+      "price": "$ 134.21",
+      "change": "-0.84%",
+      "marketcap": "$ 1,134.20 M",
+      "dvolume": "$ 1,232,764.1",
+      "tvolume": "$ 300.16 M"
+    },
+    {
+      "id": 14,
+      "name": "BNB",
+      "price": "$ 7.95",
+      "change": "2.08%",
+      "marketcap": "$ 1,515.98 M",
+      "dvolume": "$ 0",
+      "tvolume": "$ 11.40 M"
+    },
+    {
+      "id": 15,
+      "name": "ETC",
+      "price": "$ 7.52",
+      "change": "0.00%",
+      "marketcap": "$ 798.05 M",
+      "dvolume": "$ 1,801,231.6",
+      "tvolume": "$ 134.78 M"
+    },
+    {
+      "id": 16,
+      "name": "VEN",
+      "price": "$ 1.01",
+      "change": "5.88%",
+      "marketcap": "$ 1,005.75 M",
+      "dvolume": "$ 0",
+      "tvolume": "$ 54.29"
+    },
+    {
+      "id": 17,
+      "name": "XEM",
+      "price": "$ 0.09533",
+      "change": "-0.79%",
+      "marketcap": "$ 857.97 M",
+      "dvolume": "$ 29,981.4",
+      "tvolume": "$ 5,394.90 K"
+    },
+    {
+      "id": 18,
+      "name": "ONT",
+      "price": "$ 1.33",
+      "change": "-1.16%",
+      "marketcap": "$ 793.24 M",
+      "dvolume": "$ 0",
+      "tvolume": "$ 4,700.57 K"
+    },
+    {
+      "id": 19,
+      "name": "QTUM",
+      "price": "$ 3.10",
+      "change": "0.98%",
+      "marketcap": "$ 310.00 M",
+      "dvolume": "$ 38,870.8",
+      "tvolume": "$ 88.74 M"
+    },
+    {
+      "id": 20,
+      "name": "OMG",
+      "price": "$ 2.76",
+      "change": "1.47%",
+      "marketcap": "$ 387.08 M",
+      "dvolume": "$ 217,893.7",
+      "tvolume": "$ 18.92 M"
+    },
+    {
+      "id": 21,
+      "name": "ZEC",
+      "price": "$ 111.55",
+      "change": "3.46%",
+      "marketcap": "$ 587.02 M",
+      "dvolume": "$ 1,111,889.2",
+      "tvolume": "$ 285.11 M"
+    },
+    {
+      "id": 22,
+      "name": "ICX",
+      "price": "$ 0.4164",
+      "change": "0.12%",
+      "marketcap": "$ 166.65 M",
+      "dvolume": "$ 0",
+      "tvolume": "$ 3,891.80 K"
+    },
+    {
+      "id": 23,
+      "name": "LSK",
+      "price": "$ 2.11",
+      "change": "0.37%",
+      "marketcap": "$ 236.45 M",
+      "dvolume": "$ 6,519.13",
+      "tvolume": "$ 3,902.69 K"
+    },
+    {
+      "id": 24,
+      "name": "DCR",
+      "price": "$ 33.55",
+      "change": "1.76%",
+      "marketcap": "$ 296.46 M",
+      "dvolume": "$ 0",
+      "tvolume": "$ 947.85 K"
+    },
+    {
+      "id": 25,
+      "name": "ZIL",
+      "price": "$ 0.02637",
+      "change": "-0.21%",
+      "marketcap": "$ 332.30 M",
+      "dvolume": "$ 273.18",
+      "tvolume": "$ 1,621.51 K"
+    },
+    {
+      "id": 26,
+      "name": "BCN",
+      "price": "$ 0.001117",
+      "change": "0.00%",
+      "marketcap": "$ 0",
+      "dvolume": "$ 0",
+      "tvolume": "$ 222.05 K"
+    },
+    {
+      "id": 27,
+      "name": "AE",
+      "price": "$ 0.8828",
+      "change": "1.61%",
+      "marketcap": "$ 241.62 M",
+      "dvolume": "$ 0",
+      "tvolume": "$ 3,340.26 K"
+    },
+    {
+      "id": 28,
+      "name": "BTG",
+      "price": "$ 27.32",
+      "change": "1.83%",
+      "marketcap": "$ 469.97 M",
+      "dvolume": "$ 627,426.5",
+      "tvolume": "$ 218.71 M"
+    },
+    {
+      "id": 29,
+      "name": "BTM",
+      "price": "$ 0.1409",
+      "change": "0.00%",
+      "marketcap": "$ 1,433.33 K",
+      "dvolume": "$ 0",
+      "tvolume": "$ 5,190.18"
+    },
+    {
+      "id": 30,
+      "name": "SC",
+      "price": "$ 0.004470",
+      "change": "1.27%",
+      "marketcap": "$ 147.95 M",
+      "dvolume": "$ 0",
+      "tvolume": "$ 1,719.51 K"
+    },
+    {
+      "id": 31,
+      "name": "BTS",
+      "price": "$ 0.07169",
+      "change": "-0.62%",
+      "marketcap": "$ 180.08 M",
+      "dvolume": "$ 0.7300",
+      "tvolume": "$ 37.88 M"
+    },
+    {
+      "id": 32,
+      "name": "XVG",
+      "price": "$ 0.009555",
+      "change": "0.00%",
+      "marketcap": "$ 144.96 M",
+      "dvolume": "$ 2,174.10",
+      "tvolume": "$ 1,717.75 K"
+    },
+    {
+      "id": 33,
+      "name": "STEEM",
+      "price": "$ 0.5940",
+      "change": "-2.03%",
+      "marketcap": "$ 59.21 M",
+      "dvolume": "$ 0",
+      "tvolume": "$ 4,316.43 K"
+    },
+    {
+      "id": 34,
+      "name": "ZRX",
+      "price": "$ 0.5465",
+      "change": "1.94%",
+      "marketcap": "$ 546.50 M",
+      "dvolume": "$ 1,103,892.1",
+      "tvolume": "$ 8,160.43 K"
+    },
+    {
+      "id": 35,
+      "name": "REP",
+      "price": "$ 10.96",
+      "change": "0.41%",
+      "marketcap": "$ 120.59 M",
+      "dvolume": "$ 7,846.50",
+      "tvolume": "$ 682.88 K"
+    },
+    {
+      "id": 36,
+      "name": "BCD",
+      "price": "$ 1.34",
+      "change": "0.63%",
+      "marketcap": "$ 246.84 M",
+      "dvolume": "$ 945.61",
+      "tvolume": "$ 2,483.90 K"
+    },
+    {
+      "id": 37,
+      "name": "MKR",
+      "price": "$ 572.26",
+      "change": "0.93%",
+      "marketcap": "$ 572.26 M",
+      "dvolume": "$ 1,608.35",
+      "tvolume": "$ 158.32 K"
+    },
+    {
+      "id": 38,
+      "name": "XRB",
+      "price": "$ 2.53",
+      "change": "0.00%",
+      "marketcap": "$ 337.12 M",
+      "dvolume": "$ 0",
+      "tvolume": "$ 0"
+    },
+    {
+      "id": 39,
+      "name": "DOGE",
+      "price": "$ 0.002600",
+      "change": "-2.80%",
+      "marketcap": "$ 304.31 M",
+      "dvolume": "$ 46,596.4",
+      "tvolume": "$ 10.95 M"
+    },
+    {
+      "id": 40,
+      "name": "WAVES",
+      "price": "$ 1.51",
+      "change": "0.67%",
+      "marketcap": "$ 151.00 M",
+      "dvolume": "$ 33,701.9",
+      "tvolume": "$ 3,441.25 K"
+    },
+    {
+      "id": 41,
+      "name": "RHOC",
+      "price": "$ 0.08307",
+      "change": "-0.19%",
+      "marketcap": "$ 72.33 M",
+      "dvolume": "$ 0",
+      "tvolume": "$ 60.69 K"
+    },
+    {
+      "id": 42,
+      "name": "GNT",
+      "price": "$ 0.1240",
+      "change": "-0.08%",
+      "marketcap": "$ 124.00 M",
+      "dvolume": "$ 19,570.5",
+      "tvolume": "$ 2,637.94 K"
+    },
+    {
+      "id": 43,
+      "name": "DGB",
+      "price": "$ 0.01676",
+      "change": "-3.23%",
+      "marketcap": "$ 185.55 M",
+      "dvolume": "$ 306.98",
+      "tvolume": "$ 1,325.60 K"
+    },
+    {
+      "id": 44,
+      "name": "NAS",
+      "price": "$ 1.07",
+      "change": "0.00%",
+      "marketcap": "$ 107.45 M",
+      "dvolume": "$ 0",
+      "tvolume": "$ 1,400.41 K"
+    },
+    {
+      "id": 45,
+      "name": "STRAT",
+      "price": "$ 1.09",
+      "change": "5.41%",
+      "marketcap": "$ 107.81 M",
+      "dvolume": "$ 4.17",
+      "tvolume": "$ 1,716.38 K"
+    },
+    {
+      "id": 46,
+      "name": "PPT",
+      "price": "$ 2.62",
+      "change": "2.78%",
+      "marketcap": "$ 139.70 M",
+      "dvolume": "$ 0",
+      "tvolume": "$ 1,322.76 K"
+    },
+    {
+      "id": 47,
+      "name": "WAN",
+      "price": "$ 0.6711",
+      "change": "0.25%",
+      "marketcap": "$ 0",
+      "dvolume": "$ 0",
+      "tvolume": "$ 1,087.02 K"
+    },
+    {
+      "id": 48,
+      "name": "BAT",
+      "price": "$ 0.2146",
+      "change": "0.84%",
+      "marketcap": "$ 321.84 M",
+      "dvolume": "$ 6,406.05",
+      "tvolume": "$ 6,161.59 K"
+    },
+    {
+      "id": 49,
+      "name": "BTCP",
+      "price": "$ 1.65",
+      "change": "-1.41%",
+      "marketcap": "$ 0",
+      "dvolume": "$ 3,821.60",
+      "tvolume": "$ 28.42 K"
+    },
+    {
+      "id": 50,
+      "name": "HSR",
+      "price": "$ 1.15",
+      "change": "0.54%",
+      "marketcap": "$ 50.30 M",
+      "dvolume": "$ 0",
+      "tvolume": "$ 9,023.80 K"
+    }
+  ]
+}
