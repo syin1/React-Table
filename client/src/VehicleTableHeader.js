@@ -14,46 +14,46 @@ export function VehicleTableHeader(props) {
           #
         </Table.HeaderCell>
         <Table.HeaderCell
-          width={3}
-          sorted={props.column === 'make' ? props.direction : null}
-          onClick={() => props.handleSort('make')}
+          width={2}
+          sorted={props.column === 'name' ? props.direction : null}
+          onClick={() => props.handleSort('name')}
         >
           NAME
         </Table.HeaderCell>
         <Table.HeaderCell
-          width={3}
-          sorted={props.column === 'model' ? props.direction : null}
-          onClick={() => props.handleSort('model')}
+          width={2}
+          sorted={props.column === 'price' ? props.direction : null}
+          onClick={() => props.handleSort('price')}
         >
           PRICE
         </Table.HeaderCell>
         <Table.HeaderCell
           width={1}
-          sorted={props.column === 'year' ? props.direction : null}
-          onClick={() => props.handleSort('year')}
+          sorted={props.column === 'change' ? props.direction : null}
+          onClick={() => props.handleSort('change')}
         >
-          CHANGE
+          CHANGE (24H)
         </Table.HeaderCell>
         <Table.HeaderCell
           width={1}
-          sorted={props.column === 'package' ? props.direction : null}
-          onClick={() => props.handleSort('package')}
+          sorted={props.column === 'marketcap' ? props.direction : null}
+          onClick={() => props.handleSort('marketcap')}
         >
           MARKET CAP
         </Table.HeaderCell>
         <Table.HeaderCell
           width={1}
-          sorted={props.column === 'fuelType' ? props.direction : null}
-          onClick={() => props.handleSort('fuelType')}
+          sorted={props.column === 'dvolume' ? props.direction : null}
+          onClick={() => props.handleSort('dvolume')}
         >
-          VOLUME
+          DIRECT VOLUME (24H)
         </Table.HeaderCell>
         <Table.HeaderCell
           width={1}
-          sorted={props.column === 'trasmission' ? props.direction : null}
-          onClick={() => props.handleSort('transmission')}
+          sorted={props.column === 'tvolume' ? props.direction : null}
+          onClick={() => props.handleSort('tvolume')}
         >
-          CHART
+          TOTAL VOLUME (24H)
         </Table.HeaderCell>
         <Table.HeaderCell
           width={1}

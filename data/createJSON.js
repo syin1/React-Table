@@ -18,7 +18,7 @@ coinString = coinString.substring(0, coinString.length - 1);
 coins = coinString.split(',');
 
 var viewData = {
-  allCoins: []
+  coins: []
 };
 
 axios
@@ -70,11 +70,17 @@ axios
       jsonData['tvolume'] = eval(
         'response.data.DISPLAY.' + coins[i] + '.USD.TOTALVOLUME24HTO'
       );
-      viewData.allCoins.push(jsonData);
+      jsonData['favorite'] = false;
+      viewData.coins.push(jsonData);
     }
   })
   .then(function() {
-    fs.writeFile('coins.json', JSON.stringify(viewData), 'utf8', function() {});
+    fs.writeFile(
+      '../coins.json',
+      JSON.stringify(viewData),
+      'utf8',
+      function() {}
+    );
   })
   .catch(function(error) {
     console.log(error);

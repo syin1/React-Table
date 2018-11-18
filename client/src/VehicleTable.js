@@ -11,11 +11,11 @@ import { VehicleRow } from './VehicleRow';
 import { VehicleTableHeader } from './VehicleTableHeader';
 
 export default function VehicleTable(props) {
-  if (props.vehicles === undefined) {
+  if (props.coins === undefined) {
     return <div />;
   }
-  const vehicleRows = props.vehicles.map((vehicle, index) => (
-    <VehicleRow key={index} vehicle={vehicle} addFavorite={props.addFavorite} />
+  const vehicleRows = props.coins.map((coin, index) => (
+    <VehicleRow key={index} coin={coin} addFavorite={props.addFavorite} />
   ));
   return (
     <div>
@@ -49,7 +49,7 @@ export default function VehicleTable(props) {
 }
 
 VehicleTable.propTypes = {
-  vehicles: PropTypes.array.isRequired,
+  coins: PropTypes.array.isRequired,
   totalCount: PropTypes.number.isRequired,
   totalPages: PropTypes.number.isRequired,
   currentPage: PropTypes.number.isRequired,

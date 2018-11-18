@@ -7,18 +7,18 @@ import PropTypes from 'prop-types';
 export function VehicleRow(props) {
   return (
     <Table.Row>
-      <Table.Cell>{props.vehicle.id}</Table.Cell>
-      <Table.Cell>{props.vehicle.make}</Table.Cell>
-      <Table.Cell>{props.vehicle.model}</Table.Cell>
-      <Table.Cell>{props.vehicle.year}</Table.Cell>
-      <Table.Cell>{props.vehicle.package}</Table.Cell>
-      <Table.Cell>{props.vehicle.fuelType}</Table.Cell>
-      <Table.Cell>{props.vehicle.transmission}</Table.Cell>
+      <Table.Cell>{props.coin.id}</Table.Cell>
+      <Table.Cell>{props.coin.name}</Table.Cell>
+      <Table.Cell>{props.coin.price}</Table.Cell>
+      <Table.Cell>{props.coin.change}</Table.Cell>
+      <Table.Cell>{props.coin.marketcap}</Table.Cell>
+      <Table.Cell>{props.coin.dvolume}</Table.Cell>
+      <Table.Cell>{props.coin.tvolume}</Table.Cell>
       <Table.Cell textAlign="center">
         <Button
-          onClick={() => props.addFavorite(props.vehicle)}
-          color={props.vehicle.favorite ? 'google plus' : 'twitter'}
-          icon={props.vehicle.favorite ? 'heart' : 'heart outline'}
+          onClick={() => props.addFavorite(props.coin)}
+          color={props.coin.favorite ? 'google plus' : 'twitter'}
+          icon={props.coin.favorite ? 'heart' : 'heart outline'}
         />
       </Table.Cell>
     </Table.Row>
@@ -26,6 +26,6 @@ export function VehicleRow(props) {
 }
 
 VehicleRow.propTypes = {
-  vehicle: PropTypes.object.isRequired,
+  coin: PropTypes.object.isRequired,
   addFavorite: PropTypes.func.isRequired
 };

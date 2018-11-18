@@ -4,7 +4,6 @@ import { Divider, Segment } from 'semantic-ui-react/dist/commonjs';
 
 import VehicleTable from './VehicleTable';
 import VehicleFilter from './VehicleFilter';
-// import vehicles from './vehicles.json';
 
 const queryParams = ['_limit', '_order', '_sort', 'q', '_page'];
 
@@ -12,7 +11,7 @@ export default class VehicleList extends React.Component {
   constructor() {
     super();
     this.state = {
-      vehicles: [],
+      coins: [],
       _sort: 'id',
       _page: 1,
       _limit: 10,
@@ -87,22 +86,22 @@ export default class VehicleList extends React.Component {
 
   addFavorite(vehicle) {
     vehicle.favorite = !vehicle.favorite;
-    fetch(`/api/v1/vehicles/${vehicle.id}`, {
+    fetch(`/api/v1/coins/${vehicle.id}`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(vehicle)
     }).then(response => {
       if (response.ok) {
         response.json().then(data => {
-          var vehicles = this.state.vehicles.slice();
-          for (var i = 0; i < vehicles.length; ++i) {
-            if (vehicles[i].id === data.id) {
-              vehicles[i] = data;
+          var coins = this.state.coins.slice();
+          for (var i = 0; i < coins.length; ++i) {
+            if (coins[i].id === data.id) {
+              coins[i] = data;
               break;
             }
           }
 
-          this.setState({ vehicles: vehicles });
+          this.setState({ coins: coins });
         });
       } else {
         response.json().then(error => {
@@ -131,7 +130,7 @@ export default class VehicleList extends React.Component {
       totalCountQuery = `q=${params.q}`;
     }
 
-    fetch('/api/v1/vehicles?' + totalCountQuery).then(response => {
+    fetch('/api/v1/coins?' + totalCountQuery).then(response => {
       if (response.ok) {
         response.json().then(data => {
           this.setState({ totalCount: data.length });
@@ -144,10 +143,10 @@ export default class VehicleList extends React.Component {
       this.setState({ loading: false });
     });
 
-    fetch('/api/v1/vehicles?' + query).then(response => {
+    fetch('/api/v1/coins?' + query).then(response => {
       if (response.ok) {
         response.json().then(data => {
-          this.setState({ vehicles: data });
+          this.setState({ coins: data });
         });
       } else {
         // response.json().then(error => {
@@ -170,7 +169,7 @@ export default class VehicleList extends React.Component {
           />
           <Divider />
           <VehicleTable
-            vehicles={this.state.vehicles}
+            coins={this.state.coins}
             totalCount={this.state.totalCount}
             totalPages={Math.ceil(this.state.totalCount / this.state._limit)}
             currentPage={this.state._page}
