@@ -1,5 +1,3 @@
-// import React from '../../../Library/Caches/typescript/2.9/node_modules/@types/react';
-// import PropTypes from '../../../Library/Caches/typescript/2.9/node_modules/@types/prop-types';
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -7,7 +5,7 @@ import { Form, Popup } from 'semantic-ui-react/dist/commonjs';
 
 const regex = new RegExp('^[a-zA-Z0-9 ]+$');
 
-export default class VehicleFilter extends React.Component {
+export default class CoinFilter extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -63,7 +61,7 @@ export default class VehicleFilter extends React.Component {
   }
 }
 
-VehicleFilter.propTypes = {
+CoinFilter.propTypes = {
   onSubmitFilter: PropTypes.func.isRequired,
   filter: PropTypes.string.isRequired,
   totalCount: PropTypes.number.isRequired

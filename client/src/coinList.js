@@ -2,12 +2,12 @@
 import React from 'react';
 import { Divider, Segment } from 'semantic-ui-react/dist/commonjs';
 
-import VehicleTable from './coinTable';
-import VehicleFilter from './coinFilter';
+import CoinTable from './coinTable';
+import CoinFilter from './coinFilter';
 
 const queryParams = ['_limit', '_order', '_sort', 'q', '_page'];
 
-export default class VehicleList extends React.Component {
+export default class CoinList extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -84,12 +84,12 @@ export default class VehicleList extends React.Component {
     }
   }
 
-  addFavorite(vehicle) {
-    vehicle.favorite = !vehicle.favorite;
-    fetch(`/api/v1/coins/${vehicle.id}`, {
+  addFavorite(coin) {
+    coin.favorite = !coin.favorite;
+    fetch(`/api/v1/coins/${coin.id}`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(vehicle)
+      body: JSON.stringify(coin)
     }).then(response => {
       if (response.ok) {
         response.json().then(data => {
@@ -161,14 +161,14 @@ export default class VehicleList extends React.Component {
     return (
       <div>
         <Segment>
-          <VehicleFilter
+          <CoinFilter
             filter={this.state.q}
             totalCount={this.state.totalCount}
             onSubmitFilter={this.onSubmitFilter}
             loading={this.state.loading}
           />
           <Divider />
-          <VehicleTable
+          <CoinTable
             coins={this.state.coins}
             totalCount={this.state.totalCount}
             totalPages={Math.ceil(this.state.totalCount / this.state._limit)}

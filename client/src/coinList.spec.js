@@ -1,10 +1,10 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import VehicleList from './coinList';
+import CoinList from './coinList';
 import 'isomorphic-fetch';
 
-describe('VehicleList', () => {
+describe('CoinList', () => {
   it('should render correctly', () => {
-    shallow(<VehicleList />);
+    shallow(<CoinList />);
   });
 });

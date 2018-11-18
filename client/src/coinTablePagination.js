@@ -1,12 +1,10 @@
-// import React from '../../../Library/Caches/typescript/2.9/node_modules/@types/react';
-// import PropTypes from '../../../Library/Caches/typescript/2.9/node_modules/@types/prop-types';
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Icon, Menu, Table } from 'semantic-ui-react/dist/commonjs';
 
 const preventDefault = e => e.preventDefault();
 
-export default class VehicleTablePagination extends React.Component {
+export default class CoinTablePagination extends React.Component {
   constructor() {
     super();
     this.onChangePage = this.onChangePage.bind(this);
@@ -125,11 +123,11 @@ export default class VehicleTablePagination extends React.Component {
   }
 }
 
-VehicleTablePagination.defaultProps = {
+CoinTablePagination.defaultProps = {
   showPages: 5
 };
 
-VehicleTablePagination.propTypes = {
+CoinTablePagination.propTypes = {
   onChangePage: PropTypes.func.isRequired,
   totalPages: PropTypes.number.isRequired,
   currentPage: PropTypes.number.isRequired,

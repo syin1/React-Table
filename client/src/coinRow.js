@@ -1,10 +1,8 @@
-// import React from '../../../Library/Caches/typescript/2.9/node_modules/@types/react';
 import { Button, Table } from 'semantic-ui-react/dist/commonjs';
-// import PropTypes from '../../../Library/Caches/typescript/2.9/node_modules/@types/prop-types';
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export function VehicleRow(props) {
+export function CoinRow(props) {
   return (
     <Table.Row>
       <Table.Cell>{props.coin.id}</Table.Cell>
@@ -25,7 +23,7 @@ export function VehicleRow(props) {
   );
 }
 
-VehicleRow.propTypes = {
+CoinRow.propTypes = {
   coin: PropTypes.object.isRequired,
   addFavorite: PropTypes.func.isRequired
 };

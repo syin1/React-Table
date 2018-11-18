@@ -1,9 +1,4 @@
-// import React, {
-//   Component
-// } from '../../../Library/Caches/typescript/2.9/node_modules/@types/react';
 import React, { Component } from 'react';
-
-// import ReactDOM from '../../../Library/Caches/typescript/2.9/node_modules/@types/react-dom';
 
 import {
   Button,
@@ -41,5 +36,4 @@ class App extends Component {
   }
 }
 
-// ReactDOM.render(<App />, document.getElementById('contents'));
 export default App;

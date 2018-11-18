@@ -1,8 +1,7 @@
 import { Table } from 'semantic-ui-react/dist/commonjs';
-// import React from '../../../Library/Caches/typescript/2.9/node_modules/@types/react';
 import React from 'react';
 
-export function VehicleTableHeader(props) {
+export function CoinTableHeader(props) {
   return (
     <Table.Header>
       <Table.Row>

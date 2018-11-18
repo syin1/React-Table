@@ -1,8 +1,8 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { VehicleRow } from './coinRow';
+import { CoinRow } from './coinRow';
 
-describe('VehicleRow', () => {
+describe('CoinRow', () => {
   it('should render correctly', () => {
     const coins = [
       {
@@ -37,6 +37,6 @@ describe('VehicleRow', () => {
       }
     ];
 
-    shallow(<VehicleRow coin={vehicles[0]} addFavorite={() => {}} />);
+    shallow(<CoinRow coin={coins[0]} addFavorite={() => {}} />);
   });
 });

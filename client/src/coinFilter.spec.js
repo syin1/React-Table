@@ -1,15 +1,15 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import VehicleFilter from './coinFilter';
+import CoinFilter from './coinFilter';
 
-describe('VehicleFilter', () => {
+describe('CoinFilter', () => {
   it('should render correctly in "debug" mode', () => {
     let filter = '';
     let totalCount = 100;
     let onSubmitFilter = function() {};
 
     const component = shallow(
-      <VehicleFilter
+      <CoinFilter
         filter={filter}
         totalCount={totalCount}
         onSubmitFilter={onSubmitFilter}

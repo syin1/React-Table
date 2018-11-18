@@ -5,39 +5,39 @@ import PropTypes from 'prop-types';
 
 import { Dropdown, Table } from 'semantic-ui-react/dist/commonjs';
 
-import VehicleDropdownOptions from './coinDropdownOptions';
-import VehicleTablePagination from './coinTablePagination';
-import { VehicleRow } from './coinRow';
-import { VehicleTableHeader } from './coinTableHeader';
+import CoinDropdownOptions from './coinDropdownOptions';
+import CoinTablePagination from './coinTablePagination';
+import { CoinRow } from './coinRow';
+import { CoinTableHeader } from './coinTableHeader';
 
-export default function VehicleTable(props) {
+export default function CoinTable(props) {
   if (props.coins === undefined) {
     return <div />;
   }
-  const vehicleRows = props.coins.map((coin, index) => (
-    <VehicleRow key={index} coin={coin} addFavorite={props.addFavorite} />
+  const CoinRows = props.coins.map((coin, index) => (
+    <CoinRow key={index} coin={coin} addFavorite={props.addFavorite} />
   ));
   return (
     <div>
       Records per page:{' '}
       <Dropdown
         inline
-        options={VehicleDropdownOptions.limitOptions}
+        options={CoinDropdownOptions.limitOptions}
         defaultValue={props.limit}
         onChange={props.onChangeLimit}
       />
       Total count: {props.totalCount}.
       <Table celled selectable sortable>
-        <VehicleTableHeader
+        <CoinTableHeader
           column={props.column}
           direction={props.direction}
           handleSort={props.handleSort}
         />
 
-        <Table.Body>{vehicleRows}</Table.Body>
+        <Table.Body>{CoinRows}</Table.Body>
 
         <Table.Footer>
-          <VehicleTablePagination
+          <CoinTablePagination
             totalPages={props.totalPages}
             currentPage={props.currentPage}
             onChangePage={props.onChangePage}
@@ -48,7 +48,7 @@ export default function VehicleTable(props) {
   );
 }
 
-VehicleTable.propTypes = {
+CoinTable.propTypes = {
   coins: PropTypes.array.isRequired,
   totalCount: PropTypes.number.isRequired,
   totalPages: PropTypes.number.isRequired,

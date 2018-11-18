@@ -1,13 +1,13 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import VehicleTablePagination from './coinTablePagination';
+import CoinTablePagination from './coinTablePagination';
 import 'isomorphic-fetch';
 import PropTypes from 'prop-types';
 
-describe('VehicleTablePagination', () => {
+describe('CoinTablePagination', () => {
   it('should render correctly', () => {
     shallow(
-      <VehicleTablePagination
+      <CoinTablePagination
         onChangePage={() => {}}
         totalPages={100}
         currentPage={1}
