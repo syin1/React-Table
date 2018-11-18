@@ -1,11 +1,10 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import VehicleTable from './VehicleTable';
-import 'isomorphic-fetch';
+import { VehicleRow } from './coinRow';
 
-describe('VehicleTable', () => {
+describe('VehicleRow', () => {
   it('should render correctly', () => {
-    const vehicles = [
+    const coins = [
       {
         id: 1,
         name: 'BTC',
@@ -38,17 +37,6 @@ describe('VehicleTable', () => {
       }
     ];
 
-    shallow(
-      <VehicleTable
-        coins={coins}
-        totalCount={100}
-        totalPages={10}
-        currentPage={0}
-        onChangePage={() => {}}
-        addFavorite={() => {}}
-        onChangeLimit={() => {}}
-        limit={'10'}
-      />
-    );
+    shallow(<VehicleRow coin={vehicles[0]} addFavorite={() => {}} />);
   });
 });

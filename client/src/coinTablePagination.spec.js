@@ -1,8 +1,8 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import VehicleTablePagination from './VehicleTablePagination';
-import "isomorphic-fetch";
-import PropTypes from "prop-types";
+import VehicleTablePagination from './coinTablePagination';
+import 'isomorphic-fetch';
+import PropTypes from 'prop-types';
 
 describe('VehicleTablePagination', () => {
   it('should render correctly', () => {

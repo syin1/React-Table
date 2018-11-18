@@ -2,8 +2,8 @@
 import React from 'react';
 import { Divider, Segment } from 'semantic-ui-react/dist/commonjs';
 
-import VehicleTable from './VehicleTable';
-import VehicleFilter from './VehicleFilter';
+import VehicleTable from './coinTable';
+import VehicleFilter from './coinFilter';
 
 const queryParams = ['_limit', '_order', '_sort', 'q', '_page'];
 

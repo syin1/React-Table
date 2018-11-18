@@ -13,7 +13,7 @@ import {
   Menu
 } from 'semantic-ui-react/dist/commonjs';
 
-import VehicleList from './VehicleList';
+import CoinList from './coinList';
 
 class App extends Component {
   render() {
@@ -35,7 +35,7 @@ class App extends Component {
           </Menu.Item>
         </Menu>
 
-        <VehicleList />
+        <CoinList />
       </Container>
     );
   }

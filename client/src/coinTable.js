@@ -5,10 +5,10 @@ import PropTypes from 'prop-types';
 
 import { Dropdown, Table } from 'semantic-ui-react/dist/commonjs';
 
-import VehicleDropdownOptions from './VehicleDropdownOptions';
-import VehicleTablePagination from './VehicleTablePagination';
-import { VehicleRow } from './VehicleRow';
-import { VehicleTableHeader } from './VehicleTableHeader';
+import VehicleDropdownOptions from './coinDropdownOptions';
+import VehicleTablePagination from './coinTablePagination';
+import { VehicleRow } from './coinRow';
+import { VehicleTableHeader } from './coinTableHeader';
 
 export default function VehicleTable(props) {
   if (props.coins === undefined) {
